@@ -1,0 +1,55 @@
+{
+  "name": "konva",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.414.0",
+    "@aws-sdk/lib-storage": "^3.414.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "aws-amplify": "^5.3.11",
+    "aws-amplify-react": "^5.1.43",
+    "aws-sdk": "^2.1461.0",
+    "firebase": "^10.3.1",
+    "json-server": "^0.17.3",
+    "konva": "^9.2.0",
+    "react": "^18.2.0",
+    "react-aws-s3": "^1.5.0",
+    "react-dom": "^18.2.0",
+    "react-drag-drop-files": "^2.3.10",
+    "react-dropzone": "^14.2.3",
+    "react-konva": "^18.2.10",
+    "react-konva-utils": "^1.0.5",
+    "react-router": "^6.15.0",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "uid": "^2.0.2",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
